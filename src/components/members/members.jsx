@@ -7,7 +7,7 @@ const Members = () => {
       <div className="member member-1">
         <div className="member-img"></div>
         <div className="member-info">
-          <h1 className="name">Nguyen Huu Thoai</h1>
+          <h1 className="name">Huthoine</h1>
           <h3 className="position">Leader</h3>
           <h4 className="about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -23,7 +23,7 @@ const Members = () => {
       <div className="member member-2">
         <div className="member-img"></div>
         <div className="member-info">
-          <h1 className="name">Nguyen Huu Thoai</h1>
+          <h1 className="name">Huthoine</h1>
           <h3 className="position">Another Leader</h3>
           <h4 className="about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -39,7 +39,7 @@ const Members = () => {
       <div className="member member-3">
         <div className="member-img"></div>
         <div className="member-info">
-          <h1 className="name">Nguyen Huu Thoai</h1>
+          <h1 className="name">Huthoine</h1>
           <h3 className="position">Another Leader Again</h3>
           <h4 className="about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus

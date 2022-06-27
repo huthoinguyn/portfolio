@@ -4,10 +4,16 @@ import Buttons from "../button/button";
 import { BsMouse } from "react-icons/bs";
 
 function Home() {
+  const handleShowCircleImg = () => {
+    const toggle = document.querySelector(".hover-show");
+    toggle.addEventListener("click", () => {
+      toggle.classList.toggle("active");
+    });
+  }
   return (
     <div id="home" className="container home-container">
       <div className="logo">
-        <div className="hover-show">
+        <div className="hover-show" onClick={handleShowCircleImg}>
           <span className="circle"></span>
           <span className="circle"></span>
           <span className="circle"></span>
