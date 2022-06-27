@@ -8,7 +8,7 @@ export default function Header() {
         <p>
           I <span>'</span>m
         </p>
-        Thoai
+        Nguyen Huu Thoai
         <h2>Front-End Developer</h2>
       </h3>
     </div>

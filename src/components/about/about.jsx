@@ -1,11 +1,11 @@
 import "./about.css";
+import Qualifications from "../qualifications/qualifications";
 
-import React from 'react'
-
-export default function About() {
+function About() {
   return (
     <div id="about" className="container about-container">
-        
+      <Qualifications />
     </div>
-  )
+  );
 }
+export default About;

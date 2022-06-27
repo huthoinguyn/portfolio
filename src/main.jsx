@@ -9,20 +9,23 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 
-const toggle = document.querySelector(".main-img");
-toggle.addEventListener("click", () => {
-  toggle.classList.toggle("active");
+const toggle = document.querySelector('.hover-show');
+
+toggle.addEventListener('click', () => {
+  toggle.classList.toggle('active');
 });
 
-let Icons = document.querySelectorAll(".navigation .icon");
+let Icons = document.querySelectorAll('.navigation .icon');
+
 Icons.forEach((icon) => {
-  icon.addEventListener("click", () => {
+  icon.addEventListener('click', () => {
     changeactive();
-    icon.classList.add("active-nav");
+    icon.classList.add('active-nav');
   });
 });
+
 function changeactive() {
   Icons.forEach((icon) => {
-    icon.classList.remove("active-nav");
+    icon.classList.remove('active-nav');
   });
 }

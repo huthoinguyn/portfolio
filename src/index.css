@@ -86,7 +86,7 @@ body::before {
   padding: 10px 40px;
   margin: 5px auto;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 

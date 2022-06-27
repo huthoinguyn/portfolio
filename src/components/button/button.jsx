@@ -1,7 +1,6 @@
 import "./button.css";
-import React from "react";
 
-export default function Buttons() {
+function Buttons() {
   return (
     <div className="container button-container">
       <a href="#about" className="btn pri">
@@ -13,3 +12,5 @@ export default function Buttons() {
     </div>
   );
 }
+
+export default Buttons;
